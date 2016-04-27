@@ -1,0 +1,12 @@
+nginx:
+  build: ./nginx
+  mem_limit: 4294967296
+  cpu_shares: 2
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes:
+    - ./nginx/conf/nginx.conf:/usr/local/nginx/conf/nginx.conf
+    - ./nginx/html:/usr/local/nginx/html
+    - ./nginx/ssl:/usr/local/nginx/ssl
+    - ./nginx/logs:/usr/local/nginx/logs:rw
