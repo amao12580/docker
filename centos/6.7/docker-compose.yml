@@ -8,5 +8,6 @@ nginx:
   volumes:
     - ./nginx/conf/nginx.conf:/usr/local/nginx/conf/nginx.conf
     - ./nginx/html:/usr/local/nginx/html
+    - ./nginx/static:/usr/local/nginx/static
     - ./nginx/ssl:/usr/local/nginx/ssl
     - ./nginx/logs:/usr/local/nginx/logs:rw

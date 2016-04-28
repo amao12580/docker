@@ -1,0 +1,7 @@
+2016/04/28 04:03:25 [error] 10#0: enable check peer: 192.168.1.188:6080 
+2016/04/28 04:03:25 [error] 14#0: enable check peer: 192.168.1.188:7080 
+2016/04/28 04:05:10 [error] 8#0: *35 open() "/usr/local/nginx/html/index.html" failed (2: No such file or directory), client: 192.168.3.106, server: www.xw18.cn, request: "GET /index.html HTTP/1.1", host: "192.168.2.200"
+2016/04/28 04:05:20 [error] 8#0: *35 open() "/usr/local/nginx/static/test.jsp" failed (2: No such file or directory), client: 192.168.3.106, server: www.xw18.cn, request: "GET /test.jsp HTTP/1.1", host: "192.168.2.200"
+2016/04/28 04:17:48 [notice] 15#0: signal process started
+2016/04/28 04:19:01 [notice] 24#0: signal process started
+2016/04/28 04:20:49 [notice] 33#0: signal process started
