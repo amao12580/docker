@@ -1,0 +1,17 @@
+2016/04/28 04:03:25 [error] 10#0: enable check peer: 192.168.1.188:6080 
+2016/04/28 04:03:25 [error] 14#0: enable check peer: 192.168.1.188:7080 
+2016/04/28 04:05:10 [error] 8#0: *35 open() "/usr/local/nginx/html/index.html" failed (2: No such file or directory), client: 192.168.3.106, server: www.xw18.cn, request: "GET /index.html HTTP/1.1", host: "192.168.2.200"
+2016/04/28 04:05:20 [error] 8#0: *35 open() "/usr/local/nginx/static/test.jsp" failed (2: No such file or directory), client: 192.168.3.106, server: www.xw18.cn, request: "GET /test.jsp HTTP/1.1", host: "192.168.2.200"
+2016/04/28 04:17:48 [notice] 15#0: signal process started
+2016/04/28 04:19:01 [notice] 24#0: signal process started
+2016/04/28 04:20:49 [notice] 33#0: signal process started
+2016/04/28 06:07:21 [error] 40#0: *4953 access forbidden by rule, client: 192.168.1.25, server: www.xw18.cn, request: "GET /xw_NginxStatus/ HTTP/1.1", host: "192.168.2.200", referrer: "http://192.168.1.200:8008/index.php?title=%E4%B8%AD%E9%97%B4%E4%BB%B6%E9%83%A8%E7%BD%B2"
+2016/04/28 06:07:21 [error] 40#0: *4953 open() "/usr/local/nginx/static/favicon.ico" failed (2: No such file or directory), client: 192.168.1.25, server: www.xw18.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.2.200"
+2016/04/28 06:07:21 [error] 40#0: *4953 open() "/usr/local/nginx/static/favicon.ico" failed (2: No such file or directory), client: 192.168.1.25, server: www.xw18.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.2.200"
+2016/04/28 06:08:12 [error] 40#0: *4988 access forbidden by rule, client: 192.168.1.36, server: www.xw18.cn, request: "GET /xw_TomcatStatus/ HTTP/1.1", host: "192.168.2.200", referrer: "http://192.168.1.200:8008/index.php?title=%E4%B8%AD%E9%97%B4%E4%BB%B6%E9%83%A8%E7%BD%B2"
+2016/04/28 06:08:12 [error] 40#0: *4988 open() "/usr/local/nginx/static/favicon.ico" failed (2: No such file or directory), client: 192.168.1.36, server: www.xw18.cn, request: "GET /favicon.ico HTTP/1.1", host: "192.168.2.200", referrer: "http://192.168.2.200/xw_TomcatStatus/"
+2016/04/28 06:08:12 [error] 40#0: *4990 access forbidden by rule, client: 192.168.1.36, server: www.xw18.cn, request: "GET /xw_TomcatStatus/ HTTP/1.1", host: "192.168.2.200", referrer: "http://192.168.1.200:8008/index.php?title=%E4%B8%AD%E9%97%B4%E4%BB%B6%E9%83%A8%E7%BD%B2#Nginx"
+2016/04/28 06:08:14 [error] 40#0: *4993 access forbidden by rule, client: 192.168.1.36, server: www.xw18.cn, request: "GET /xw_NginxStatus/ HTTP/1.1", host: "192.168.2.200", referrer: "http://192.168.1.200:8008/index.php?title=%E4%B8%AD%E9%97%B4%E4%BB%B6%E9%83%A8%E7%BD%B2#Nginx"
+2016/04/28 06:08:26 [error] 40#0: *5008 access forbidden by rule, client: 192.168.1.36, server: www.xw18.cn, request: "GET /xw_NginxStatus/ HTTP/1.1", host: "192.168.2.200", referrer: "http://192.168.1.200:8008/index.php?title=%E4%B8%AD%E9%97%B4%E4%BB%B6%E9%83%A8%E7%BD%B2#Nginx"
+2016/04/29 11:16:03 [error] 10#0: enable check peer: 192.168.1.188:7080 
+2016/04/29 11:16:03 [error] 13#0: enable check peer: 192.168.1.188:6080 
