@@ -1,0 +1,12 @@
+#替换redis服务定义，可能需要拷贝原始的link定义
+redis:
+ build: ./redis
+ ports:
+   - "6379:6379"
+ mem_limit: 4294967296
+ cpu_shares: 2
+ volumes:
+    - ./redis/conf/redis.conf:/usr/local/bin/conf/redis.conf
+    - ./redis/run:/usr/local/bin/run:rw
+    - ./redis/logs:/usr/local/bin/logs:rw
+    - ./redis/backup:/usr/local/bin/backup:rw
