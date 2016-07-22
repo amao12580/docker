@@ -1,0 +1,6 @@
+solr:
+  build: ./solr
+  ports:
+    - "30001:8983"
+  volumes:
+    - ./solr/solr/:/root/solr/
